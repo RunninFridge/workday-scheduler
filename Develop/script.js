@@ -4,6 +4,10 @@ $(function () {});
 var today = moment().format("LLLL");
 var now = moment().format("H A");
 
+// this just uses the moment and the variable to show the current day/time
+$("#currentDay").text(today);
+
+
 //Hour entries for the planner
 var workDay = [
   { time: "9 AM", event: "" },
@@ -28,9 +32,6 @@ var eventEl = JSON.parse(localStorage.getItem("workDay"));
 if (eventEl) {
   workDay = eventEl;
 }
-
-// this just uses the moment and the variable to show the current day/time
-$("#currentDay").text(today);
 
 //This creates the rows for the time and texts
 workDay.forEach(function (timeBlock, index) {
