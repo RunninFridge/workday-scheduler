@@ -20,6 +20,7 @@ THEN the saved events persist
 
 Links:
 https://github.com/RunninFridge/workday-scheduler
+https://runninfridge.github.io/workday-scheduler/
 
 
 ![image](./Develop/screenshots/screenshot1.png)
